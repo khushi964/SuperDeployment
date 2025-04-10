@@ -169,11 +169,18 @@ section {
   height: 80vh;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
+} */
+.section__pic-container img {
+  width: 200px; /* or any size you prefer */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* This makes the image circular */
+  border: 3px solid #000; /* Optional: adds a border */
 }
 
 .section__text {
